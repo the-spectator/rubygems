@@ -19,6 +19,7 @@ status = [
   "ubuntu_rvm (ruby-head, rubygems)",
   "ubuntu_rvm (ruby-head, bundler)",
   "ubuntu_rvm (jruby-9.2.8.0, rubygems)",
+  "ruby_master",
 ]
 
 timeout-sec = 14400
