@@ -78,6 +78,8 @@ jobs:
         run: bin/rake setup
       - name: Run Ruby Lint
         run: bin/rake rubocop
+      - name: Check expired deprecations
+        run: bin/rake check_deprecations
       - name: Run Markdown Lint
         run: bin/mdl -g . -r MD001,MD025
       - name: Generate docs
